@@ -1,0 +1,10 @@
+CREATE DATABASE hff;
+
+CREATE TABLE users
+(
+    id INT PRIMARY KEY NOT NULL,
+    name VARCHAR(250),
+    prenom VARCHAR(100),
+    email VARCHAR(255),
+)
+
