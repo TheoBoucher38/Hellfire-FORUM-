@@ -8,3 +8,10 @@ CREATE TABLE users
     email VARCHAR(255),
 )
 
+CREATE TABLE usercontent
+(
+    
+    messagecount INT,
+    contributions INT,
+    joined DATE,
+)
